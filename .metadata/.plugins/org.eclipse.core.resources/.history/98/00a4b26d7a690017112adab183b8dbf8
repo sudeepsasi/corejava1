@@ -1,0 +1,17 @@
+package day4;
+
+public class test {
+
+	public static void main(String[] args) {
+		book b1 = new book();
+		int pages = b1.author(100);
+		System.out.println("number of pages:" +pages);
+		
+		String name = b1.author("chethan");
+		System.out.println("author name:" +name);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package today28;
+
+public class test {
+
+	public static void main(String[] args) {
+		Vehicle v1 = new Vehicle(55, 7);
+		v1.Speed();
+		v1.milage();
+	}
+
+}

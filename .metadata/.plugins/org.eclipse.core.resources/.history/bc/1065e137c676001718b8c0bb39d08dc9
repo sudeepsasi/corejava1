@@ -1,0 +1,11 @@
+package project;
+
+public class test {
+
+	public static void main(String[] args) {
+		emp e1 = new emp();
+		e1.getdata("hari", 123, "chennai");
+		e1.putdata();
+	}
+
+}

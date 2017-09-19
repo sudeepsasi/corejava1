@@ -1,0 +1,30 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		int n=6,i;
+		float average = 0;
+		int marks,sum;
+		
+		for(i=0;i<n;i++){
+	
+			
+			System.out.println("print total");	
+			
+		 average = n/6;
+			System.out.println("print average");
+			
+			
+			
+					
+			
+		}
+
+	}
+
+	
+		
+	}
+
+

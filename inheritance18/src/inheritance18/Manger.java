@@ -1,0 +1,23 @@
+package inheritance18;
+
+public class Manger extends Employee {
+	private double CarAllowance;
+	
+	//check your notes, some lines missing
+	public Manger() {
+	super();
+	CarAllowance= 0.0;
+}
+	
+public Manger(int empId,String eName, double Sal, double CarAllowance){
+	super(empId,eName,Sal);
+	this.CarAllowance = CarAllowance;
+}
+public void dispSalary(){
+	double totalSal = super.getsal()+CarAllowance;
+	System.out.println("total Salary:" + totalSal);
+
+	
+
+}
+}

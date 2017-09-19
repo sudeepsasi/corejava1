@@ -1,0 +1,13 @@
+package day4;
+
+public class book {
+	public int author(int a){
+	int pages = a;
+	return pages;
+}
+ public String author (String aname){
+	 String name = aname;
+	 return name;
+	 
+ }
+}

@@ -1,0 +1,16 @@
+package project;
+
+public class test {
+
+	public static void main(String[] args) {
+		rectangle rect=new rectangle();
+		 circle cir=new circle();
+		 Area A;
+		 A=rect;
+		 System.out.println("Area of rectangle="+A.compute(10,20));
+		 A=cir;
+		 System.out.println("Area of circle="+A.compute(30,0));
+
+	}
+
+}

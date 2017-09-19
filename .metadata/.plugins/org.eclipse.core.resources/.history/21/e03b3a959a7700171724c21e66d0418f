@@ -1,0 +1,11 @@
+package pacakagecom.example10.client;
+import package pacakagecom.project.A;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package testing;
+
+public class test {
+
+
+	public static void main(String[] args) {
+		int n=0,i;
+		int a=0,b=1,c=0;
+	int [] arr = new int[5];
+		
+		for(i=4; i<=n; i++)
+		{
+		    c=  a+ b;
+			a=b;
+			b=c;
+			
+			System.out.println("fab value:" +c);
+			
+		}
+		
+
+
+	
+		}	
+	}

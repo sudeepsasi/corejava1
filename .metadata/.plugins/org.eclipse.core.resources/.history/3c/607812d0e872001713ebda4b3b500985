@@ -1,0 +1,39 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		int n=6,i;
+		float average = 0;
+		int total;
+		int sum;
+		int []array = new int[6];//{40,50,60,70,80,82};
+		
+		
+	
+		for(i=0;i<n;i++){
+			array[i] = i;
+			
+			
+		
+			
+		
+			
+			System.out.println(" total value:" +total);	
+			
+	       average = total/6;
+			System.out.println(" average value:"+average);
+			
+			
+			
+					
+			
+		}
+
+	}
+
+	
+		
+	}
+
+

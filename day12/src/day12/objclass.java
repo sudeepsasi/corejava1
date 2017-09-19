@@ -1,0 +1,12 @@
+package day12;
+
+public class objclass
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("helo java");
+
+	}
+
+}

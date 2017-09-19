@@ -1,0 +1,9 @@
+package project;
+
+public class claassB extends classA{
+	void display()
+	 {
+	 System.out.println("This is from class B ");
+
+	 }
+}

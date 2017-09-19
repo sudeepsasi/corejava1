@@ -1,0 +1,34 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		int n=6,i;
+		float average = 0;
+		
+		int sum =0 ;
+		
+	
+		for(i=0;i<n;i++){
+			sum = sum+n;
+			
+		
+			
+			System.out.println(" total value:" +sum);	
+			
+		 average = sum/6;
+			System.out.println(" average value");
+			
+			
+			
+					
+			
+		}
+
+	}
+
+	
+		
+	}
+
+

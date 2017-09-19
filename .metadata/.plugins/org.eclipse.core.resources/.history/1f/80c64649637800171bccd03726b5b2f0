@@ -1,0 +1,20 @@
+package com.vivekinfo.wrapperdemo;
+
+public class string {
+
+	public static void main(String[] args) {
+	
+		String s1 = new String ();
+		
+	String i1 = s1.toUpperCase();
+	String i2 = s1.substring(4);
+	int i3 = s1.length();
+	boolean i4 = s1.equals("Cat");
+	int i5 = s1.lastIndexOf("ball");
+	System.out.println("Strings :"+i1);
+	System.out.println("string:"+i2);
+			
+
+	}
+	
+}

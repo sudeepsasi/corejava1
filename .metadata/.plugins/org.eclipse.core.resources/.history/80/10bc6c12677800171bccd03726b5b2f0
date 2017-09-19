@@ -1,0 +1,12 @@
+package com.vivekinfo.wrapperdemo;
+
+public class stringbuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb1 = new StringBuffer();
+		
+		sb1.append("int 4");
+
+	}
+
+}

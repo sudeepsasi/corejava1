@@ -1,0 +1,13 @@
+package project;
+
+public class test {
+
+	public static void main(String[] args) {
+		 child c=new child();
+		 c.get_m(10);
+		 c.get_n(20);
+		 c.display_m();
+		 c.display_n();
+	}
+
+}

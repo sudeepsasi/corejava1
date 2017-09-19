@@ -1,0 +1,18 @@
+package today28;
+
+public  class Vehicle implements Car {
+	private int Kms;
+	private double Distance ;
+	
+	public Vehicle(int Kms, double Distance){
+		this.Kms = Kms;
+		this.Distance = Distance;
+	}
+	public void Speed(){
+		System.out.println("Travel distance:"+Kms);
+	}
+	public void milage(){
+		System.out.println("number of meters:"+Distance);
+	}
+
+}

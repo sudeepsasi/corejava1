@@ -1,0 +1,19 @@
+package testing;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		int  i;
+		int odd [] = new int[]{10,45,87,34,89,50,23};
+		
+		for(i=0;i<5; i++)
+		{
+			
+	if(	odd[i]%2!=0)
+			
+				System.out.println("show odd numbers:"+ odd[i]);
+		}
+
+	}
+
+}

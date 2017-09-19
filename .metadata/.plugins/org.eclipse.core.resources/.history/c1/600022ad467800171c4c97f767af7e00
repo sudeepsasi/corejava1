@@ -1,0 +1,22 @@
+package com.project.abs;
+
+public abstract class Director {
+	//fields
+	String Name;
+
+	//constructor
+	public Director(String Name){
+		this.Name = Name;
+	
+	}
+		//methods
+		public abstract void Hero();
+		
+		public void dispdetails(){
+			System.out.println("Movie Name:+Name");
+
+					
+		}
+	}
+
+

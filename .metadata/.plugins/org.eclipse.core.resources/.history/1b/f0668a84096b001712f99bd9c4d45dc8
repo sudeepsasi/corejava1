@@ -1,0 +1,17 @@
+package day12;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		passingvalues p1 = new passingvalues();
+		int i = 100;
+		p1.ChangeNocount(i);
+		System.out.println("i values is:" + i);
+		
+		StringBuffer s1 = new StringBuffer("hello");
+		p1.ChangeMessages(s1);
+		System.out.println("s1 value is:" +s1);
+
+	}
+
+}

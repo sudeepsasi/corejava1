@@ -1,0 +1,13 @@
+package com.vivekinfo.wrapperdemo;
+
+public class stringbuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb1 = new StringBuffer("Krishna");
+		
+		sb1.append("K");
+		System.out.println("re:"+sb1);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.vivekinfo.cilent;
+
+import com.vivekinfo.polydemo.Employee;
+import com.vivekinfo.polydemo.Manager;
+
+public class test {
+
+	public static void main(String[] args) {
+		Employee e1 = new Manager();
+		e1.dispDetails();
+		
+		Manager m = (Manager) e1;
+		m.dispmanagerAllowances();
+	
+
+	}
+
+}

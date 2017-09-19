@@ -1,0 +1,19 @@
+package com.vivekinfo.wrapperdemo;
+
+public class stringbuffer {
+
+	public static void main(String[] args) {
+		StringBuffer sb1 = new StringBuffer("Krishna");
+		
+		StringBuffer i1 = sb1.append(".B");
+		StringBuffer i2 = sb1.insert(0, "Hari");
+		StringBuffer i3 = sb1.reverse();
+		StringBuffer i4 = sb1.replace(2,0, "Sai");
+		System.out.println("re:"+i2);
+		System.out.println("ff:"+i1);
+		System.out.println("hh"+i3);
+		System.out.println("hgf"+i4);
+
+	}
+
+}

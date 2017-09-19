@@ -1,0 +1,17 @@
+package inheritance18;
+
+public class test {
+
+	public static void main(String[] args) {
+		Manger M1 = new Manger();
+		M1.dispdetails();
+		M1.dispSalary();
+		
+		Manger M2 = new Manger(101,"Hari",5000.0,5000.0);
+		M2.dispdetails();
+		M2.dispSalary();
+		
+
+	}
+
+}

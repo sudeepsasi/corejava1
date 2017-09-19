@@ -1,0 +1,26 @@
+package inheritance18;
+
+public class Employee {
+	private int empId;
+	private String eName;
+	private double Sal;
+	
+	Employee(){
+		empId = 0;
+		eName ="";
+		Sal = 0.0;
+	}
+	Employee(int empId,String eName, double Sal){
+		this.empId = empId;
+		this.eName = empName;
+		this.Sal = Sal;
+	}
+	public void dispdetails(){
+		System.out.println("Emp Id:" +empId);
+		System.out.println("Emp Name:" +eName);
+	}
+	public double getsal(){
+		return Sal;
+	}
+
+}

@@ -1,0 +1,11 @@
+package pacakagecom.example10.client;
+
+import pacakagecom.project.A.Inherb;
+public class test {
+
+	public static void main(String[] args) {
+	Inherb i1 = new Inherb();
+	i1.display();
+	}
+
+}

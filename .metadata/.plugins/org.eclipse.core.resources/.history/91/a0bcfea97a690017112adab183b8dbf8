@@ -1,0 +1,19 @@
+package day4;
+
+public class test {
+
+	public static void main(String[] args) {
+		book b1 = new book();
+		b1.dispbookdetails();
+		
+		book b2 = new book();
+		b2.dispbookdetails();
+		
+		book b3 = new book();
+		b3.dispbookdetails();
+		
+		
+
+	}
+
+}

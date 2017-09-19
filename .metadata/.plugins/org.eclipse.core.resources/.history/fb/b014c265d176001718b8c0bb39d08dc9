@@ -1,0 +1,12 @@
+package project;
+
+public class test {
+
+	public static void main(String[] args) {
+		Interest y1 = new Interest(8600,0.0326,3);
+		y1.calculationinterest();
+		
+
+	}
+
+}

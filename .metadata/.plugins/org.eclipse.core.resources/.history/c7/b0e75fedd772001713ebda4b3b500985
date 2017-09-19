@@ -1,0 +1,30 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		int total;
+		double average;
+		
+		
+		public void calculation(){
+			
+			
+		
+			total = 40+50+60+70+80+82;
+			
+			average = total/6;
+			
+			
+			
+					
+			
+		}
+
+	}
+
+	
+		
+	}
+
+

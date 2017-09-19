@@ -1,0 +1,12 @@
+package today28;
+
+public class test {
+
+	public static void main(String[] args) {
+		Ticket t1 = new Ticket(105,5,50);
+		t1.showticketdetails();
+		t1.ticketcalculation();
+
+	}
+
+}
